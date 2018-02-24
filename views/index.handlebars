@@ -1,0 +1,58 @@
+<div class="container">
+  
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Eat-Da-Burger!</h1>
+      <hr>
+      <img src="/assets/img/best-burger.gif"/>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="burgers">
+        <h4>Burgers</h4>
+          <ul>
+            {{#each burgerList}}
+                <li>
+                  <p>
+                    {{this.id}}) {{this.burger_name}}
+
+                    <button data-burgerid="{{this.id}}" data-burgername="{{this.burger_name}}" class="devourburger"><img class="devourImg" src="/assets/img/devour.png"/>Devour burger!</button>
+                  </p>
+                </li>
+            {{/each}}
+          </ul>
+      </div>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="devouredBurgers">
+        <h4>Devoured Burgers</h4>
+          <ul>
+              {{#each burgerDevoured}}
+                  <li>
+                    <p>
+                      {{this.id}}) {{this.burger_name}}
+                    </p>
+                  </li>
+              {{/each}}
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="makeBurger">
+        <hr>
+        <h4>Make-Da-Burger</h4>
+          <form id="createburger" class="button-size">
+            <textarea type="text" name="burger"></textarea>
+            <button type="submit"><img class="burgerImg" src="/assets/img/burger.png"/>Make-Da-Burger!</button>
+          </form>
+      </div>
+    </div>
+  </div>
+
+</div>

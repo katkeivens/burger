@@ -1,0 +1,63 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: lightblue;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	display: block;
+	border-radius: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20em;
+}
+
+.burgers, .devouredBurgers {
+	margin-top: 15px;
+	background-color: #DEB887;
+	border-radius: 10px;
+	padding: 5px 5px 5px 5px;
+}
+
+h4 {
+	text-align: center;
+}
+
+.makeBurger {
+	text-align: center;
+	margin-top: 10px;
+}
+
+textarea {
+	width: 90%;
+}
+
+button {
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background-color: #1faf1f;
+	border: 1px solid darkgray;
+	padding-right: 10px;
+}
+
+button.devourburger {
+	float: right;
+	margin-right: 10px;
+	background-color: #f45642;
+}
+
+.devourImg, .burgerImg {
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+
+.burgerImg {
+	margin-right: 5px;
+}
