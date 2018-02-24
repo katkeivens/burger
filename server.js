@@ -5,7 +5,7 @@ const exphbs = require("express-handlebars");
 const burgerRoutes = require('./controllers/burgers_controller.js')
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.port || 3000;
 
 
 app.use(bodyParser.urlencoded({ extended: false }));
