@@ -1,4 +1,4 @@
-# burger
+# Eat-da-burger
 
 This is a full stack app where users are able to create their own burgers and eat them.  This app uses Express, Node, JS, JQuery, Handlebars, and SQL.
 
